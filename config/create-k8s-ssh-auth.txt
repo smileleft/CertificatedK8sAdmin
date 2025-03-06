@@ -1,0 +1,1 @@
+kubectl create secret generic secret-ssh-auth --from-file=ssh-privatekey --type=kubernetes.io/ssh-auth
